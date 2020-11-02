@@ -13,6 +13,6 @@ namespace ChickenPlatesApp.Models
         public ChickenPart Part { get; set; }
         public SideDish Dish { get; set; }
         public List<Drink> Drinks { get; set; }
-            
+        
     }
 }
