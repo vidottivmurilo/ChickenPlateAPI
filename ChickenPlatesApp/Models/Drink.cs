@@ -6,8 +6,13 @@ namespace ChickenPlatesApp.Models
     {
         [Key]
         public long id { get; set; }
+
+        [Required]
         [MaxLength(250)]
         public string DrinkName { get; set; }
+
+        public ChickenPlate ChickenPlate { get; set; }
+        public long ChikenPlateId { get; set; }
 
     }
 }
