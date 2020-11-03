@@ -5,9 +5,6 @@
     <UserSecretsId>fdcf5a9f-e4c1-4b60-8606-6fb07cecee21</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
